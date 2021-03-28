@@ -20,4 +20,4 @@ Le package.json va se créer il faut le modifier :
 
 Installer les "node_modules" : npm i "nom_du_packet"
 
-Créer le ".gitignore" et le remplir via https://www.gitignore.io (ex: node + linux + VS Code + 1 pour chaque "nom_de_packet_rajoutés")
+Créer le ".gitignore" et le remplir via https://www.gitignore.io (ex: node + linux + VS Code)
