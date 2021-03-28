@@ -9,3 +9,5 @@ Projet GitHub existant :
     git push                                                          //Envoyer sur le dépot distant                                       
 
  /!\ En étant sur la branch main | Avant de "git merge (nom de la branche secondaire)" TOUJOURS "git pull" la branch principale
+
+ /!\ On ne peut envoyer que des changements qui ont été commit 
