@@ -1,6 +1,6 @@
 Projet GitHub existant :
 
     git remote add origin git@github.com:Sarkraf/LearnJS.git          // Créer le remote dans .git (soit lier le dêpot local et le dêpot distant)
-    git branch -M main
-    git push -u origin main
+    git branch -M main                                                // Définir en tant que branche principal
+    git push -u origin main                                           // Lier la distant (=origin) main à la branche où on se trouve actuellement (branche local =main)
 
