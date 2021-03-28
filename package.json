@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sarkraf/LearnJS/issues"
   },
-  "homepage": "https://github.com/Sarkraf/LearnJS#readme"
+  "homepage": "https://github.com/Sarkraf/LearnJS#readme",
+  "dependencies": {
+    "eslint": "^7.23.0"
+  }
 }
