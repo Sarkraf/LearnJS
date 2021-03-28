@@ -1,1 +1,1 @@
-console.log (`Hello World`);
+prompt (`Hello World`);
