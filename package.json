@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Sarkraf/LearnJS#readme",
   "dependencies": {
     "eslint": "^7.23.0",
+    "express": "^4.17.1",
     "prettier": "^2.2.1"
   }
 }
