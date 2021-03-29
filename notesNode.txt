@@ -1,0 +1,23 @@
+                                            ** Pour initialiser Node dans le repos **
+
+npm init 
+echo
+    "
+        package name: (learnjs) 
+        version: (1.0.0) 
+        description: Apprendre le JS
+        entry point: (myScript.js) 
+        test command: 
+        git repository: (https://github.com/Sarkraf/LearnJS.git) 
+        keywords: 
+        author: Sarkraf
+        license: (ISC) 
+    "
+Le package.json va se créer il faut le modifier :
+    ->Créer le script pour lancer l'Application
+        ->edit "package.json" dans l'objet "scripts"
+            ->créer la commande "start" : {  "start": "node myScript.js"  }
+
+Installer les "node_modules" : npm i "nom_du_packet"
+
+Créer le ".gitignore" et le remplir via https://www.gitignore.io (ex: node + linux + VS Code)

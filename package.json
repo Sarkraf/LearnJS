@@ -1,0 +1,24 @@
+{
+  "name": "learnjs",
+  "version": "1.0.0",
+  "description": "Apprendre le JS",
+  "main": "myScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node myScript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarkraf/LearnJS.git"
+  },
+  "author": "Sarkraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarkraf/LearnJS/issues"
+  },
+  "homepage": "https://github.com/Sarkraf/LearnJS#readme",
+  "dependencies": {
+    "eslint": "^7.23.0",
+    "prettier": "^2.2.1"
+  }
+}
