@@ -18,5 +18,3 @@ Projet GitHub existant :
 
  /!\ Verifier le repos distant (git fetch) si il y a une nouvelle branch 
     git checkout (nom_de_la_nouvelle_branch)
-
-    gaa &&  gc -m "test" && git push                                   // git add --all (&& = +) git commit (-m = mettre un message) "le_message_en_question" (&& = +) git push
