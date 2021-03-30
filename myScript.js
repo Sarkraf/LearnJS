@@ -1,3 +1,10 @@
-for (let i = 0; i < 10; i++) {
-    console.log(i);
-  }
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.listen(3000)
+
+console.log('myScripte.js launched on http://localhost:3000');
