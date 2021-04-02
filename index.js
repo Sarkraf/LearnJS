@@ -1,15 +1,15 @@
-/*const express = require('express')
+const express = require('express')
 const app = express()
  
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
  
-app.listen(3000)
-
+app.listen(3000, function () {
 console.log('myScripte.js launched on http://localhost:3000');
-*/
-//----------
+})
+
+//----------------------------------------------------------------------------------------------------------------------------------
 /*
 function isTelOk(inputTel) {
   const regex = /^(0|\+33)[1-9]( *[0-9]{2}){4}$/;
@@ -31,16 +31,17 @@ else {
   console.log ('Le numéro de téléphone est incorrect !');
 }
 */
-//---------
+//---------------------------------------------------------------------------------------------------------------------------------
+/*
 function isMailOk(inputMail) {
   const regex = /^[a-zA-Z0-9\-\_\.]+\@[a-zA-Z0-9\-\_]+\.[a-zA-Z]{1,9}$/;
   const verifMail = inputMail.search(regex);
-  /*if (verifMail === -1) {
-    return false ;
-  }
-  else {
-    return true ;
-  }*/
+  //if (verifMail === -1) {
+  //   return false ;
+  // }
+  // else {
+  //   return true ;
+  // }
   return verifMail !== -1;    //Remplace le if dans un fonction()
 }
 let inputMail = 'sarkraf.dev@gmail.com';
@@ -51,3 +52,4 @@ if (isMailOk(inputMail)) {
 else {
   console.log ('L\'adresse mail est incorrect !');
 }
+*/
