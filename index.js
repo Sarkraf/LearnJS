@@ -35,7 +35,6 @@ else {
   console.log ('Le numéro de téléphone est incorrect !');
 }
 */
-
 app.post('/checkMail', function (req, res) {
   const goodOrNot = isMailOk(req.body.mail)
   res.json({ response: goodOrNot })
@@ -44,10 +43,20 @@ app.post('/checkMail', function (req, res) {
 function isMailOk(inputMail) {
   const regex = /^[a-zA-Z0-9\-\_\.]+\@[a-zA-Z0-9\-\_]+\.[a-zA-Z]{1,9}$/;
   const verifMail = inputMail.search(regex);
-  return verifMail !== -1;    //Remplace le if dans un fonction()
+  return verifMail !== -1;    //Remplace le if dans une fonction()
 }
 
 
 app.listen(3000, function () {
   console.log('myScripte.js launched on http://localhost:3000');
 })
+
+      /*Test
+function multiply(a, b) {
+  let numbers = [a, b]    // Make array for input
+  let whatIs = numbers.filter(isNumber) // Check if input is Number
+  function isNumber(value) { return value === Number } // Allows to check
+  if (isNumber !== -1) { return a * b } 
+  return 'Bad Input ! Please retry with Numbers'
+}
+*/
